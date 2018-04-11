@@ -7,7 +7,7 @@ import TodoList from "./TodoList";
 import TodoListFooter from "./TodoListFooter";
 
 
-const todos = ["Learn React", "Learn Redux", "Take Nap", "Hello"]
+const todos = ["Learn React", "Learn Redux", "Take Nap"]
 
 
 class TodoListApp extends Component {

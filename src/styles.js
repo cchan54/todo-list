@@ -1,34 +1,39 @@
 const style = {
-  backgroundColor: "skyblue",
-  color: "black",
-  margin: "0 auto",
+  backgroundColor: "white",
+  margin: "5rem auto",
   textAlign: "center",
-  width: "500px",
-  height: "auto"
+  width: "400px",
+  height: "auto",
  };
  
  const HeaderStyle = {
    alignContent: "center",
-   margin: "2rem",
-   height: "auto"
+   height: "auto",
+   padding: "1rem",
+   backgroundColor: "purple",
+   color: "white"
  }
  
  const InputStyle = {
    display: "flex",
+   color: "grey",
    height: "1.5rem",
+   padding: "1rem",
    backgroundColor: "lightgray",
-   justifyContent: "center"
+   justifyContent: "center",
+   border: "0px"
  }
  
  const TodoItemStyle = {
    display: "flex",
+   padding: "1rem",
  }
  
  const TodoFooterStyle = {
    display: "flex",
-   width: "50%",
+   width: "90%",
    margin: "0 auto",
-   padding: "2rem",
+   padding: "1rem",
    justifyContent: "space-between"
  }
 

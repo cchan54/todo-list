@@ -7,7 +7,7 @@ class TodoListFooter extends Component {
     return (
      <div style={TodoFooterStyle}>
        <p>{this.props.todoscount}</p>
-       <button>Clear</button>
+       <button>Clear Completed</button>
      </div>
     )
   }
